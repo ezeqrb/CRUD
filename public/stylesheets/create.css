@@ -13,4 +13,9 @@ form{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding-bottom: 10px;
 }
+h1{
+    text-align: center;
+}
+

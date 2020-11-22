@@ -1,0 +1,26 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.links{
+    display: flex;
+    justify-content: center;
+    margin: 20px 20px ;
+}
+
+.links div{
+    margin: 20px;
+}
+
+button{
+    padding: 10px;
+}
