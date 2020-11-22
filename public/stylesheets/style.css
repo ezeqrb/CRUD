@@ -1,0 +1,18 @@
+*{
+  margin: 0;
+  padding: 0; 
+  font: 18px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: red;
+}
+
+
+form{
+  display: flex;
+  flex-direction: column;
+
+}
+
+.user{
+  display: flex;
+  justify-content: center;
+}

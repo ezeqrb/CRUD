@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;  
+    font-size: 12px;
+}
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.titulares{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.a{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.b{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background-color: silver;
+
+}
+h3{
+    width: 12.5%;
+    text-align: center;
+}

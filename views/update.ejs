@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/stylesheets/create.css">
+    <title>update</title>
+</head>
+    <body>
+        <div class="user">
+            <h1>Actualizar producto</h1>
+            <form method="POST" action="/products/update/<%= productFound.id %>">
+                <input type="text" name="titulo" placeholder="Título" required="required" value="<%= productFound.titulo %>">
+                <input type="text" name="precio" placeholder="Precio" required="required" value=" <%= productFound.precio %>" >
+                <select name="tipo" label="tipo" value=" <%= productFound.tipo %>">
+                    <optgroup >
+                        <option value="<%= productFound.tipo %>"><%= productFound.tipo %></option>
+                        <option value="hombre">Hombre</option>
+                        <option value="mujer">Mujer</option>
+                        <option value="niño">Niño</option>
+                    </optgroup>
+                </select>
+                <select name="deporte" label="Deporte" >
+                    <optgroup>
+                        <option value="<%= productFound.deporte %>"><%= productFound.deporte %></option>
+                        <option value="futbol">Futbol</option>
+                        <option value="bascket">Bascket</option>
+                        <option value="running">Running</option>
+                    </optgroup>
+                </select>
+                <input type="text" name="talle" placeholder="Talle" value="<%= productFound.talle %>">
+                <button type="submit">Actualizar</button>
+            </form>
+        </div>
+    </body>
+</html>

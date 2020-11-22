@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/stylesheets/create.css">
+    <title>CRUD</title>
+</head>
+    <body>
+        <div class="user">
+            <h1>Crear producto</h1>
+            <form method="post" label="Crear nuevo producto">
+                <input type="text" name="id" placeholder="id" required>
+                <input type="text" name="titulo" placeholder="Título" required="required">
+                <input type="text" name="precio" placeholder="Precio" required="required">
+                <select  name="tipo">
+                    <optgroup label="Tipo" label="Tipo">
+                      <option value="hombre">Hombre</option>
+                      <option value="mujer">Mujer</option>
+                      <option value="niño">Niño</option>
+                    </optgroup>
+                </select>
+                <select  name="deporte" label="Deporte">
+                    <optgroup label="deporte">
+                        <option value="futbol">Futbol</option>
+                        <option value="bascket">Bascket</option>
+                        <option value="running">Running</option>
+                    </optgroup>
+                </select>
+                <input type="text" name="talle" placeholder="Talle">
+                <button type="submit">Crear</button>
+            </form>
+        </div>
+    </body>
+</html>
